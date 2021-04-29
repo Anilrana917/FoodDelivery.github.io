@@ -1,0 +1,134 @@
+/*--Navigation-section--*/
+@media only screen and (max-width:1140px){
+
+
+
+#navbar{
+    display: block;
+    padding-left: 25px;
+    height: 100px;
+}
+
+#navbar ul {
+    margin-left: 16px;
+}
+
+#navbar ul li a{
+    font-size: 15px;
+    padding: 0px 7px;
+    padding-bottom: 8px;
+}
+
+#navbar ul li a:hover {
+    color: whitesmoke;
+    background-color: brown;
+    height: 15px;
+}
+
+/*--Home-section--*/
+#home {
+    height: 253px;
+    padding: 3px 28px;
+}
+
+#home p {
+    font-size: 12px;
+    text-align: center;
+    justify-content: center;
+}
+
+.h-primary {
+    font-size: 18px;
+    font-weight: bold;
+    color: brown;
+    
+}
+
+.h-secondry {
+    font-size: 20px;
+    padding: 10px;
+    font-family: 'Mukta' , sans-serif;
+}
+
+#home h1 {
+    color: brown;
+    text-align: center;
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+
+
+#logo {
+    margin: 2px 34px;
+}
+
+#logo img {
+    height: 55px;
+    margin: 5px 65px;
+}
+
+
+
+/*--Services-section--*/ 
+
+#services{
+    flex-direction: column;
+}
+
+#services .box{
+    padding: 14px;
+    margin: 2px 0px;
+    margin-bottom: 20px;
+}
+
+#services .box p {
+    font-size: 12px;
+}
+
+#services .box img {
+    height: 70px;
+}
+
+/*--Clients-section--*/
+
+#clients{
+    flex-wrap: wrap;
+}
+
+#clients img{
+    width: 66px;
+    height: auto;
+}
+
+/*--Contact Us-section--*/
+
+#contact-box form{
+    width: 80%;
+}
+
+
+/*--Footer-section--*/
+
+/*--Utility-section--*/
+
+
+.btn{
+    font-size: 13px;
+    padding: 4px 8px;
+}
+
+#btn1{
+    padding: 0px 126px;
+    background-color: brown;
+    font-size: 14px;
+}
+
+#myBtn {
+    right: 3px;
+    padding: 9px 13px;
+    font-size: 12px;
+    background-color: brown;
+    box-shadow: 0 3px #999;
+}
+    
+}
