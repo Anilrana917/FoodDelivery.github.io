@@ -88,7 +88,7 @@ html {
 #home::before{
     content: "";
     position: absolute;
-    background: url('/img/home-bg.jpg') no-repeat center center/cover ;
+    background: url('./img/home-bg.jpg') no-repeat center center/cover ;
     top: 0px;
     left: 0px;
     height: 642px;
@@ -190,7 +190,7 @@ html {
     justify-content: center;
     align-items: center;
     padding-bottom: 34px;
-    background: url('/img/contact.jpg') no-repeat center center/cover;
+    background: url('./img/contact.jpg') no-repeat center center/cover;
 }
 #contact-box input,
 #contact-box textarea{
